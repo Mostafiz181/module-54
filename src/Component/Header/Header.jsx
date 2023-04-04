@@ -1,13 +1,14 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
+import "./Header.css"
 
 const Header = () => {
     return (
-        <div>
-            <h1>this is header page</h1>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
+        <div className='navbar'>
+            <Link to="/">Home</Link>
+            <Link to = "/friends">Friends</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
             
             
 
