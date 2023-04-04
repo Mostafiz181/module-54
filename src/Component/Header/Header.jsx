@@ -6,8 +6,8 @@ const Header = () => {
         <div>
             <h1>this is header page</h1>
             <a href="/">Home</a>
-            <a href="/">About</a>
-            <a href="/">Service</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
             
             
 
